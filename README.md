@@ -1,7 +1,7 @@
 # もぎたて
 ## 環境構築
 Dockerビルド
-1. 
+1. git@github.com:yuka619/test2.git
 
 2.docker-compose up -d --build
 
