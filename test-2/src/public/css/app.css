@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: left;
+    height: 10px;
+}
+
+h1 {
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+}
+
+.logo-title {
+    color: yellow;
+}
+
+.sidebar {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+    margin-left: 220px;
+}
